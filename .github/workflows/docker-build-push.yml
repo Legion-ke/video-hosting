@@ -35,3 +35,5 @@ jobs:
           context: ./frontend
           push: true
           tags: legion12/video-hosting-frontend:latest
+      - name: Debug Environment
+        run: env
