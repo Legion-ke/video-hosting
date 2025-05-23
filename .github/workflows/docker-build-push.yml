@@ -3,7 +3,7 @@ name: Build and Push Docker Images
 on:
   push:
     branches:
-      - main # change to your default branch if needed
+      - main
 
 jobs:
   build-and-push:
@@ -27,7 +27,7 @@ jobs:
         with:
           context: ./backend
           push: true
-          tags: your-dockerhub-username/video-hosting-backend:latest
+          tags: legion12/video-hosting-backend:latest
 
       - name: Build and push frontend image
         uses: docker/build-push-action@v6
