@@ -1,0 +1,27 @@
+# Node (frontend)
+node_modules/
+dist/
+public/build/
+
+# Go (backend)
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+vendor/
+
+# Docker
+*.log
+*.pid
+
+# OS
+.DS_Store
+Thumbs.db
+
+*.swp
+
+# Environment files
+.env
+
